@@ -60,6 +60,7 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+    color: #82AFF9;
 }
 .container,
 .grid {
@@ -110,14 +111,14 @@ body {
   min-width: 960px;
 }
 .row {
-  background: #fff;
+  background: #29264E;
   padding: 66px 0 44px 0;
 }
 .row-alt {
    background: #cbe2c1;
    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+   background: -moz-linear-gradient(to right, #a1d3b0, #82AFF9);
+   background: linear-gradient(to right, #445569, #008080);
    padding: 44px 0 22px 0;
  }
 
@@ -125,9 +126,10 @@ body {
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
+        color: #82AFF9;
 }
 h1, h2, h3, h4 {
-  color: #648880;
+  color: deepskyblue;
 }
 h1 {
   font-size: 36px;
@@ -136,12 +138,15 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 44px;
+    color: #82AFF9;
 }
 h3 {
   font-size: 21px;
+    color: #82AFF9;
 }
 h4 {
   font-size: 18px;
+        color: #82AFF9;
 }
 h5 {
   color: #a9b2b9;
@@ -159,7 +164,7 @@ cite, em {
 	/*Links*/
 
 a {
-  color: #648880;
+  color: #82AFF9;
   text-decoration: none;
 }
 a:hover {
@@ -170,7 +175,7 @@ p a {
 }
 .primary-header a,
 .primary-footer a {
-  color: #fff;
+  color: #54D1F1;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
@@ -229,7 +234,7 @@ p a {
 }
 .hero p {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .teaser a:hover h3 {
   color: #a9b2b9;
@@ -286,9 +291,11 @@ p a {
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
+    
 }
 .nav li:last-child {
   margin-right: 0;
+    
 }
 
 	/*Speakers*/
@@ -334,7 +341,7 @@ textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .register-group label {
-  color: #648880;
+  color: #82AFF9;
   cursor: pointer;
   font-weight: 400;
 }
